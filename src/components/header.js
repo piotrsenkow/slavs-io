@@ -6,8 +6,8 @@ function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
-    <nav className="flex flex-wrap items-center justify-between p-6 mb-6 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
-      <div className="flex items-center flex-shrink-0 mr-6 text-white">
+    <nav className="flex flex-wrap items-center justify-between p-6 mb-6 bg-white">
+      <div className="flex items-center flex-shrink-0 mr-6 text-black">
         <span className="text-xl font-semibold tracking-tight">
           {siteTitle}
         </span>
@@ -15,7 +15,7 @@ function Header({ siteTitle }) {
       <div className="block lg:hidden">
         <button
           onClick={() => toggleExpansion(!isExpanded)}
-          className="flex items-center px-3 py-2 text-white border border-white rounded hover:text-white hover:border-white"
+          className="flex items-center px-3 py-2 text-black border border-white rounded hover:text-black hover:border-white"
         >
           <svg
             className="w-3 h-3 fill-current"
@@ -36,23 +36,23 @@ function Header({ siteTitle }) {
           <Link
             to={`/`}
             href="#responsive-header"
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            className="block mt-4 mr-4 text-black lg:inline-block lg:mt-0 hover:text-black"
           >
             Home
           </Link>
           <Link
             to={`/page-2`}
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            className="block mt-4 mr-4 text-black lg:inline-block lg:mt-0 hover:text-black"
           >
             page 2
           </Link>
         </div>
         <div>
           <a
-            href="#download"
-            className="inline-block px-4 py-2 mt-4 text-sm leading-none text-white border border-white rounded hover:border-transparent hover:text-black hover:bg-white lg:mt-0"
+            href="#mint"
+            className="inline-block px-4 py-2 mt-4 disabled:opacity-90 text-sm leading-none text-black border border-black rounded hover:border-transparent hover:text-white hover:bg-black lg:mt-0"
           >
-            Download
+          Mint a Slav!
           </a>
         </div>
       </div>

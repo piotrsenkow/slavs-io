@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby TailwindCSS Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter with TailwindCSS and common dev tools. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@kosvrouvas`,
+    title: `Squatting Slavs of Solana`,
+    description: `Slavs.io presents NFT project dubbed, "Squatting Slavs of Solana". Each Slav is one of 10,000, unique, randomly-generated, gopniks that are ready to be squatting on the Solana blockchain.`,
+    author: `@piotrsenkow`,
   },
   flags: {
     THE_FLAG: false
@@ -76,6 +76,12 @@ module.exports = {
         develop: false,
         tailwind: true,
       },
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+      rule: {
+        include: /assets/ // See below to configure properly
+      }
+    }
     }
   ],
 }
