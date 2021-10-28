@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Squatting Slavs of Solana`,
+    title: `Squatting Slavs`,
     description: `Slavs.io presents NFT project dubbed, "Squatting Slavs of Solana". Each Slav is one of 10,000, unique, randomly-generated, gopniks that are ready to be squatting on the Solana blockchain.`,
     author: `@piotrsenkow`,
   },
@@ -19,6 +19,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -84,4 +85,5 @@ module.exports = {
     }
     }
   ],
+  
 }
