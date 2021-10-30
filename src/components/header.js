@@ -43,22 +43,24 @@ function Header({ siteTitle }) {
           <Link
             to={`/`}
             href="#responsive-header"
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            className="block mt-3 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
             RoadMap
           </Link>
           <Link
             to={`/`}
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            className="block mt-3 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
             FAQ
           </Link>
         </div>
-        <div class="flex flex-start relative">
-        <FontAwesomeIcon icon={faDiscord} size="2x" />
-        <a href="https://www.twitter.com/slavicnfts/" class="text-white px-4"><FontAwesomeIcon icon={faTwitter} size="2x"/> </a>
-        <a href="https://www.instagram.com/solanaslavs/" class="text-white"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
+        
+        <div class="flex flex-start relative grid lg:grid-cols-3">
+          <a href="#" class="text-white mt-3 lg:mt-0"><FontAwesomeIcon icon={faDiscord} size="2x" /></a>
+          <a href="https://www.twitter.com/slavicnfts/" class="lg:mt-0 mt-3 text-white lg:px-2"><FontAwesomeIcon icon={faTwitter} size="2x"/> </a>
+          <a href="https://www.instagram.com/solanaslavs/" class="lg:mt-0 mt-3 text-white lg:px-2"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
         </div>
+
         {/* <div>
           <a
             href="#mint"
