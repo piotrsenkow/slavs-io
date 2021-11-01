@@ -9,14 +9,16 @@ function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
-    <nav className="flex flex-wrap items-center justify-between px-6 bg-black font-mono text-white">
+    <nav className="flex flex-wrap items-center justify-between py-2 px-4 bg-black font-mono text-white">
       <div className="flex items-center flex-shrink-0 mr-6 text-white">
         <span className="text-xl font-semibold tracking-tight">
           {siteTitle}
         </span> 
-        <StaticImage
-        src="../images/logo_2.png"
-        />
+        <Link
+            to={`/`}
+            className="block mt-3 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white">
+          <StaticImage class="w-10 h-10" src="../images/logo.svg"/>
+        </Link>
        
       </div>
       <div className="block lg:hidden">

@@ -26,9 +26,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header siteTitle={data.site.siteMetadata.title} class="sticky top-0 z-50"/>
       <div > 
-        <main>{children}</main>
+        <main class="relative">{children}</main>
         <footer class="text-white ">
           slavs.io {new Date().getFullYear()}          
         </footer>
