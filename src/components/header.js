@@ -11,7 +11,7 @@ function Header({ siteTitle }) {
   return (
     <nav className="flex flex-wrap items-center justify-between py-2 px-4 bg-black font-mono text-white">
       <div className="flex items-center flex-shrink-0 mr-6 text-white">
-        <span className="text-xl font-semibold tracking-tight">
+        <span className="text-xl font-semibold tracking-tight pr-2">
           {siteTitle}
         </span> 
         <Link
@@ -42,22 +42,29 @@ function Header({ siteTitle }) {
         } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
       >
         <div className="text-sm lg:flex-grow">
+        <Link
+            to={`/`}
+            href="#responsive-header"
+            className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            Gallery
+          </Link>
           <Link
             to={`/`}
             href="#responsive-header"
-            className="block mt-3 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
             RoadMap
           </Link>
           <Link
             to={`/`}
-            className="block mt-3 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
             FAQ
           </Link>
         </div>
         
-        <div class="flex flex-start relative grid lg:grid-cols-3">
+        <div class="flex flex-start relative grid items-center justify-center lg:grid-cols-3">
           <a href="#" class="text-white mt-3 lg:mt-0"><FontAwesomeIcon icon={faDiscord} size="2x" /></a>
           <a href="https://www.twitter.com/slavicnfts/" class="lg:mt-0 mt-3 text-white lg:px-2"><FontAwesomeIcon icon={faTwitter} size="2x"/> </a>
           <a href="https://www.instagram.com/solanaslavs/" class="lg:mt-0 mt-3 text-white lg:px-2"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
