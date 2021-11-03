@@ -8,8 +8,8 @@ import Gif from "../components/gif"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-      <About></About>
       <Gif></Gif>
+      <About></About>
   </Layout>
 )
 

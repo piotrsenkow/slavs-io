@@ -10,7 +10,7 @@ function About() {
               <div class="text-white absolute w-screen flex items-center justify-center px-12 z-10">
               <div class="grid grid-cols-1 gap-y-10 lg:gap-y-64">
                 <div class="pt-12 sm:pt-20 ">
-                  <p class="bold text-2xl leading-9 font-bold tracking-tighter sm:text-4xl sm:w-2/5">13+ Countries, 120+ Attributes, 10000 Squatting Slavs.<br/><br/> Collect &amp; hold your part of the first Slav Squat collection on Solana this December! </p>
+                  <p class="bold text-2xl leading-9 font-bold tracking-tighter sm:text-4xl sm:w-2/5 lg:w-2/6">13+ Countries, 120+ Attributes, 10000 Squatting Slavs.<br/><br/> Collect &amp; hold your part of the first Slav Squat collection on Solana this December! </p>
                 </div>
                 <div class="teaser-stats text-white justify-center items-center flex">
                   <div class="box pr-4 border-r-2">
