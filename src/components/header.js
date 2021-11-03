@@ -9,14 +9,14 @@ function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
-    <nav className="flex flex-wrap items-center justify-between py-2 px-4 bg-black font-mono text-white">
+    <nav className="flex flex-wrap items-center justify-between py-2 px-4 bg-black font-mono text-grey-400">
       <div className="flex items-center flex-shrink-0 mr-6 text-white">
-        <span className="text-xl font-semibold tracking-tight pr-2">
-          {siteTitle}
-        </span> 
-        <Link
+      <Link
             to={`/`}
             className="block mt-3 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white">
+        <span className="text-2xl font-black tracking-tighter pr-2">
+          {siteTitle}
+        </span> 
           <StaticImage class="w-10 h-10" src="../images/logo.svg"/>
         </Link>
        
@@ -42,32 +42,25 @@ function Header({ siteTitle }) {
         } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
       >
         <div className="text-sm lg:flex-grow">
-        <Link
-            to={`/`}
+          <Link
+            to={`/roadmap`}
             href="#responsive-header"
             className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            Gallery
+            Roadmap
           </Link>
           <Link
-            to={`/`}
-            href="#responsive-header"
+            to={`/faq`}
             className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            RoadMap
-          </Link>
-          <Link
-            to={`/`}
-            className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
-          >
-            FAQ
+            F.A.Q
           </Link>
         </div>
         
         <div class="flex flex-start relative grid items-center justify-center lg:grid-cols-3">
           <a href="#" class="text-white mt-3 lg:mt-0"><FontAwesomeIcon icon={faDiscord} size="2x" /></a>
           <a href="https://www.twitter.com/slavicnfts/" class="lg:mt-0 mt-3 text-white lg:px-2"><FontAwesomeIcon icon={faTwitter} size="2x"/> </a>
-          <a href="https://www.instagram.com/solanaslavs/" class="lg:mt-0 mt-3 text-white lg:px-2"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
+          <a href="https://www.instagram.com/solanaslavs/" class="lg:mt-0 mt-3 text-white lg:px-2"><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
         </div>
 
         {/* <div>

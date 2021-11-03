@@ -10,6 +10,8 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.5",
     "autoprefixer": "^10.2.6",
     "gatsby": "^4.0.0-zz-next.1",
     "gatsby-plugin-fontawesome-css": "^1.1.0",
