@@ -2,13 +2,13 @@ import React from "react"
 
 function About() {
     return(
-            <div class="w-screen h-screen relative font-mono">
+            <div class="w-screen h-screen relative font-mono bg-black">
               <video class ="w-screen h-screen object-fill absolute z-0" autoPlay loop playsInline muted>
                   <source src="https://d3q7itx8i8trj7.cloudfront.net" type="video/mp4" />
                   <source src="https://d3q7itx8i8trj7.cloudfront.net" type="video/ogg" />  
               </video>
               <div class="text-white absolute w-screen flex items-center justify-center px-12 z-10">
-              <div class="grid grid-cols-1 gap-y-10">
+              <div class="grid grid-cols-1 gap-y-10 lg:gap-y-64">
                 <div class="pt-12 sm:pt-20 ">
                   <p class="bold text-2xl leading-9 font-bold tracking-tighter sm:text-4xl sm:w-2/5">13+ Countries, 120+ Attributes, 10000 Squatting Slavs.<br/><br/> Collect &amp; hold your part of the first Slav Squat collection on Solana this December! </p>
                 </div>
