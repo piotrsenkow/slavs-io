@@ -58,9 +58,9 @@ function Header({ siteTitle }) {
         </div>
         
         <div class="flex flex-start relative grid items-center justify-center lg:grid-cols-3">
-          <a href="https://www.discord.gg/squattingslavs/" class="text-white mt-3 lg:mt-0"><FontAwesomeIcon icon={faDiscord} size="2x" /></a>
-          <a href="https://www.twitter.com/slavicnfts/" class="lg:mt-0 mt-3 text-white lg:px-2"><FontAwesomeIcon icon={faTwitter} size="2x"/> </a>
-          <a href="https://www.instagram.com/solanaslavs/" class="lg:mt-0 mt-3 text-white lg:px-2"><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
+          <a href="https://www.discord.gg/squattingslavs" class="text-white mt-3 lg:mt-0"><FontAwesomeIcon icon={faDiscord} size="2x" /></a>
+          <a href="https://www.twitter.com/slavicnfts" class="lg:mt-0 mt-3 text-white lg:px-2"><FontAwesomeIcon icon={faTwitter} size="2x"/> </a>
+          <a href="https://www.instagram.com/solanaslavs" class="lg:mt-0 mt-3 text-white lg:px-2"><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
         </div>
 
         {/* <div>
