@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Squatting Slavs`,
-    description: `Slavs.io presents NFT project dubbed, "Squatting Slavs of Solana". Each Slav is one of 10,000, unique, randomly-generated, gopniks that are ready to be squatting on the Solana blockchain.`,
+    description: `Slavs.io presents NFT project dubbed, "Squatting Slavs of Solana". Each Slav is one of 10,000, unique, randomly-generated, gopniks that are excited to squat on the Solana blockchain December 2021.`,
     author: `@piotrsenkow`,
   },
   flags: {
