@@ -1,35 +1,78 @@
 import React from "react"
 
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import { Disclosure } from '@headlessui/react'
+import { ChevronDownIcon } from '@heroicons/react/outline'
+
+const faqs = [
+  {
+    question: "Who are Squatting Slavs?",
+    answer:
+      "Slavic people originate from 13 countries (15 if you include past countries USSR and Yugoslavia). They squat because it is obvious that it is  more comfortable / efficient than sitting or standing.",
+  },
+  {
+    question: "When can I buy a Squatting Slav?",
+    answer:
+      "December 2021. An exact date is to be determined and announced.",
+  },
+  {
+    question: "Where can I buy a Squatting Slav?",
+    answer:
+      "You may only purchase a Slav on Slavs.io during launch date. After the initial sale, you may purchase one on secondary art markets such as Solanart.io. ",
+  },
+  {
+    question: "How much for one Squatting Slav?",
+    answer:
+      "Slavs will be available for purchase with Solana. An exact price will be determined closer to launch date to ensure a low mint price so that everyone can participate.",
+  },
+  {
+    question: "What did you listen to while creating this project?",
+    answer:
+      "'Mac Miller - Faces' was on loop in the background 24/7. ",
+  },
+  // More questions...
+]
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
+
 function About() {
     return(
-            <div class="w-screen h-screen relative font-mono bg-black">
-              <video class ="w-screen h-screen object-fill absolute z-0" autoPlay loop playsInline muted>
-                  <source src="https://d3q7itx8i8trj7.cloudfront.net" type="video/mp4" />
-                  <source src="https://d3q7itx8i8trj7.cloudfront.net" type="video/ogg" />  
-              </video>
-              <div class="text-white absolute w-screen flex items-center justify-center px-12 z-10">
-              <div class="grid grid-cols-1 gap-y-10 lg:gap-y-64">
-                <div class="pt-12 sm:pt-20 ">
-                  <p class="bold text-2xl leading-9 font-bold tracking-tighter sm:text-4xl sm:w-2/5 lg:w-2/6">13+ Countries, 120+ Attributes, 10000 Squatting Slavs.<br/><br/> Collect &amp; hold your part of the first Slav Squat collection on Solana this December! </p>
-                </div>
-                <div class="teaser-stats text-white justify-center items-center flex">
-                  <div class="box pr-4 border-r-2">
-                    <div class="feature ext-black mb-0.5 text-xl font-bold">10,000</div>
-                    <p class="sub font-thin">slavs</p>
-                  </div>
-                  <div class="box pr-4 pl-4 border-r-2">
-                    <div class="feature ext-black mb-0.5 text-xl tracking-normal font-bold">DECEMBER</div>
-                    <p class="sub font-thin">launch</p>
-                  </div>
-                  <div class="box-last pl-4">
-                    <div class="feature ext-black mb-0.5 text-xl font-bold">TBD</div>
-                    <p class="sub font-thin">price</p>
-                  </div>
-                </div>
-              </div>
-            </div>   
-          </div>
-);
+      <div className="bg-black font-mono">
+      <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
+          <h2 className="text-center text-3xl font-extrabold text-white sm:text-4xl">Frequently asked questions</h2>
+          <dl className="mt-6 space-y-6 divide-y divide-gray-200">
+            {faqs.map((faq) => (
+              <Disclosure as="div" key={faq.question} className="pt-6">
+                {({ open }) => (
+                  <>
+                    <dt className="text-lg">
+                      <Disclosure.Button className="text-left w-full flex justify-between items-start text-white">
+                        <span className="font-medium text-gray-400">{faq.question}</span>
+                        <span className="ml-6 h-7 flex items-center">
+                          <ChevronDownIcon
+                            className={classNames(open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform')}
+                            aria-hidden="true"
+                          />
+                        </span>
+                      </Disclosure.Button>
+                    </dt>
+                    <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                      <p className="text-base text-white">{faq.answer}</p>
+                    </Disclosure.Panel>
+                  </>
+                )}
+              </Disclosure>
+            ))}
+          </dl>
+        </div>
+      </div>
+    </div>
+    );
 }
+
 
 export default About

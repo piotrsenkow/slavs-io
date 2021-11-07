@@ -14,10 +14,7 @@ function Header({ siteTitle }) {
       <Link
             to={`/`}
             className="block mt-3 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white">
-        <span className="text-2xl font-black tracking-tighter pr-2">
-          {siteTitle}
-        </span> 
-          <StaticImage class="w-10 h-10" src="../images/logo.svg"/>
+          <StaticImage class="" src="../images/TypoLogo.svg"/>
         </Link>
        
       </div>
@@ -42,19 +39,19 @@ function Header({ siteTitle }) {
         } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
       >
         <div className="text-sm lg:flex-grow">
-          <Link
+          {/* <Link
             to={`/roadmap`}
             href="#responsive-header"
             className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            Roadmap
+            Legendary Slavs
           </Link>
           <Link
             to={`/faq`}
             className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            F.A.Q
-          </Link>
+            Gulag
+          </Link> */}
         </div>
         
         <div class="flex flex-start relative grid items-center justify-center lg:grid-cols-3">

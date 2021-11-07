@@ -42,7 +42,7 @@ function classNames(...classes) {
 const Faq = () => (
   <Layout>
     <SEO title="FAQ" />
-    <div className="bg-black h-screen">
+    <div className="bg-black">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
           <h2 className="text-center text-3xl font-extrabold text-white sm:text-4xl">Frequently asked questions</h2>
