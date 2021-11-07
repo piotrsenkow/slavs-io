@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Squatting Slavs`,
-    description: `Slavs.io presents NFT project dubbed, "Squatting Slavs of Solana". Each Slav is one of 10,000, unique, randomly-generated, gopniks that are excited to squat on the Solana blockchain December 2021.`,
+    title: `Squatting Slavs of Solana`,
+    siteUrl: `https://www.example.com`,
+    description: `Squatting Slavs of Solana is an NFT collection arriving to the Solana blockchain December 2021 in the form of 10,000, unique, randomly-generated, Squatting Slavs originating from the 13 slavic countries.`,
     author: `@piotrsenkow`,
   },
   flags: {
@@ -19,6 +20,15 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.slavs.io',
+        sitemap: 'https://www.slavs.io/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    `gatsby-plugin-advanced-sitemap`,
     `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-plugin-manifest`,
