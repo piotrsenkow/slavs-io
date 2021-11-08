@@ -12,10 +12,12 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-gtag`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "UA-212212122-1"
+        trackingId: "UA-212212122-1",
+        head: true,
+        anonymize: true,
       },
     },
     `gatsby-plugin-react-helmet`,
