@@ -12,6 +12,10 @@ const faqs = [
       "Slavic people originate from 13 countries (15 if you include past countries USSR and Yugoslavia). They squat because it is obvious that it is  more comfortable / efficient than sitting or standing.",
   },
   {
+    question: "Where are they coming from?",
+    answer: "They are arriving from Belarus, Bosnia, Bulgaria, Croatia, Macedonia, Montenegro, Poland, Russia, Serbia, Slovakia, Slovenia, & Ukraine. Likewise, old school Slavs from USSR and Yugoslavia decided to accompany on this one-way ticket trip to Solana where they will reside on FOREVER!"
+  },
+  {
     question: "When can I buy a Squatting Slav?",
     answer:
       "December 2021. An exact date is to be determined and announced.",
@@ -27,10 +31,24 @@ const faqs = [
       "Slavs will be available for purchase with Solana. An exact price will be determined closer to launch date to ensure a low mint price so that everyone can participate.",
   },
   {
+    question: "Why 10,000 and not a limited amount?",
+    answer:
+      "With 15 nations in this series launch, thats ~667 Slavs representing each nation. There is going to be a high demand to have a Slav, especially those possessing rarer traits from your desired country!",
+  },
+  {
+    question: "What's the Squatting Slav mission?",
+    answer: "Squatting Slavs of Solana is a fun and wholesome community built on connecting Slavs and everyone else around the world."
+  },
+  {
+    question: "The future of Squatting Slavs of Solana?",
+    answer: "Series 2 is already in the works. Holders of both Series 1 & 2 will receive a free airdrop."
+  },
+  {
     question: "What did you listen to while creating this project?",
     answer:
       "'Mac Miller - Faces' was on loop in the background 24/7. ",
   },
+  
   // More questions...
 ]
 

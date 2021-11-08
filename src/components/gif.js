@@ -11,7 +11,7 @@ function Gif() {
               <div class="grid grid-cols-1 gap-y-4 xl:gap-y-32">
                 <div>
                   <p class="bold text-3xl leading-7 font-bold tracking-tighter py-4 sm:text-4xl">13+ Nations,<br/> 120+ Attributes,<br/> 10000 Squatting Slavs.</p>
-                  <p class="bold text-3xl leading-7 font-bold tracking-tighter py-4 sm:text-4xl">Collect &amp; hold your part of the first Slav Squat collection on Solana this December! </p>
+                  <p class="bold text-3xl leading-7 font-bold tracking-tighter py-4 sm:text-4xl">Collect &amp; hold your part of the first Slav Squat NFT collection on Solana this December! </p>
 
                 </div>
                 <div class="text-white grid grid-cols-3">
