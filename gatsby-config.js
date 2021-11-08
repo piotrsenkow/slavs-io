@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Squatting Slavs of Solana`,
-    siteUrl: `https://www.slavs.io`,
-    description: `Squatting Slavs of Solana is an NFT collection arriving to the Solana blockchain December 2021 in the form of 10,000, unique, randomly-generated, Squatting Slavs originating from the 13 slavic countries.`,
+    description: `Squatting Slavs of Solana is an NFT collection arriving to the Solana blockchain December 2021 in the form of 10,000, unique, randomly-generated, Squatting Slavs originating from 13+ Slavic countries.`,
     author: `@slavicnfts`,
+    siteUrl: `https://slavs.io`,
+    keywords: `slav squat, squatting slavs, slavic, solana, nft, culture, meme, wojak`,
+    image: `src/images/icon.png`
   },
   flags: {
     THE_FLAG: false
@@ -15,7 +17,7 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: "UA-212212122-1",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
+        head: true,
         // Setting this parameter is optional
         anonymize: true,
         // Setting this parameter is also optional

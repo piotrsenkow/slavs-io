@@ -4,7 +4,7 @@ function Gif() {
     return(
         <div class="bg-black text-white relative font-monocontent-center xl:px-12 md:grid md:grid-cols-2">
             <div>
-                <img class="p-4 xl:px-32 rounded-lg" src="https://d3h3pduwxn8qc8.cloudfront.net/" />
+                <img class="p-4 xl:px-32 rounded-lg" src="https://d3h3pduwxn8qc8.cloudfront.net/" alt="Squatting Slavs of Solana NFT gif image displaying various configurations of Slavs." />
             </div>
             
             <div class="text-white flex items-center justify-center px-4 lg:w-full font-mono">

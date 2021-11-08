@@ -19,12 +19,18 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            siteUrl
+            keywords
+            image
           }
         }
       }
     `
   )
-
+  
+  const image = site.siteMetadata.image
+  const keywords = site.siteMetadata.keywords
+  const siteUrl = site.siteMetadata.siteUrl
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 
@@ -41,6 +47,14 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content: keywords,
+        },
+        {
+          name: `siteUrl`,
+          content: siteUrl,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -53,8 +67,16 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: image,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
+        },
+        {
+          name: `twitter:image`,
+          content: image,
         },
         {
           name: `twitter:creator`,
@@ -81,6 +103,7 @@ SEO.defaultProps = {
 
 SEO.propTypes = {
   description: PropTypes.string,
+  image: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
