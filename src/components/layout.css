@@ -13,5 +13,6 @@ a {
   @apply text-blue-600;
 }
 
+
 @tailwind components;
 @tailwind utilities;

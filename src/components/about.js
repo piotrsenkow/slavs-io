@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     question: "Where are they coming from?",
-    answer: "They are arriving from Belarus, Bosnia, Bulgaria, Croatia, Macedonia, Montenegro, Poland, Russia, Serbia, Slovakia, Slovenia, & Ukraine. Likewise, old school Slavs from USSR and Yugoslavia decided to accompany on this one-way ticket trip to Solana where they will reside on FOREVER!"
+    answer: "They are arriving from Belarus, Bosnia, Bulgaria, Croatia, Czechia, Macedonia, Montenegro, Poland, Russia, Serbia, Slovakia, Slovenia, & Ukraine. Likewise, old school Slavs from USSR and Yugoslavia decided to accompany on this one-way ticket trip to Solana where they will reside on FOREVER!"
   },
   {
     question: "When can I buy a Squatting Slav?",
@@ -57,38 +57,61 @@ function classNames(...classes) {
 }
 
 function About() {
-    return(
-      <div className="bg-black font-mono">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
-          <h2 className="text-center text-3xl font-extrabold text-white sm:text-4xl">Frequently asked questions</h2>
-          <dl className="mt-6 space-y-6 divide-y divide-gray-200">
-            {faqs.map((faq) => (
-              <Disclosure as="div" key={faq.question} className="pt-6">
-                {({ open }) => (
-                  <>
-                    <dt className="text-lg">
-                      <Disclosure.Button className="text-left w-full flex justify-between items-start text-white">
-                        <span className="font-medium text-gray-400">{faq.question}</span>
-                        <span className="ml-6 h-7 flex items-center">
-                          <ChevronDownIcon
-                            className={classNames(open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform')}
-                            aria-hidden="true"
-                          />
-                        </span>
-                      </Disclosure.Button>
-                    </dt>
-                    <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base text-white">{faq.answer}</p>
-                    </Disclosure.Panel>
-                  </>
-                )}
-              </Disclosure>
-            ))}
-          </dl>
-        </div>
-      </div>
+    return(<div>
+      <div class="bg-black text-white relative font-monocontent-center xl:px-12 md:grid md:grid-cols-2">
+            <div class="text-white flex items-center justify-center px-4 lg:w-full font-mono">
+              <div class="grid grid-cols-1 gap-y-4 xl:gap-y-32">
+                <div>
+                  <p class="bold text-4xl leading-7 font-bold tracking-tighter py-4 sm:text-4xl md:text-5xl xl:text-7xl">7 Legendary Slavs</p>
+                  {/* <p class="bold text-2xl leading-7 font-light tracking-tighter py-4 sm:text-4xl">Some famous some fictitious..</p> */}
+                  <p class="bold text-2xl leading-7 font-normal tracking-tighter py-4 sm:text-4xl"><b>Featuring:</b></p>
+                  <li><b>Anatoly Yakovenko</b> (Solana creator)</li>
+                  <li><b>Vitalik Buterin</b> (Ethereum creator)</li>
+                  <li><b>Gary Vaynerchuk</b> (Entrepreneur)</li>
+                  <li><b>Boban Marjanović</b> (Pro NBA player)</li>
+                  <li><b>Yuri Gagarin</b> (Kosmonaut)</li>
+                  <li><b>Babushka</b> (Makes great dumplings!)</li>
+                  <li>& <b>Baba Yaga</b>! (Beware of the witch!)</li>
+                </div>
+              </div>
+            </div>
+            <div>
+                <img class="p-4 xl:px-32 rounded-lg" src="https://d2job0l8ymfiy1.cloudfront.net/" alt="Squatting Slavs of Solana NFT gif image displaying various configurations of Slavs." />
+            </div>
+           </div>
+           <div className="bg-black font-mono pt-16">
+    <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+    <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
+      <h2 className="text-center text-3xl font-extrabold text-white sm:text-4xl md:text-5xl xl:text-6xl">Frequently asked questions</h2>
+      <dl className="mt-6 space-y-6 divide-y divide-gray-200">
+        {faqs.map((faq) => (
+          <Disclosure as="div" key={faq.question} className="pt-6">
+            {({ open }) => (
+              <>
+                <dt className="text-lg">
+                  <Disclosure.Button className="text-left w-full flex justify-between items-start text-white">
+                    <span className="font-medium text-gray-400">{faq.question}</span>
+                    <span className="ml-6 h-7 flex items-center">
+                      <ChevronDownIcon
+                        className={classNames(open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform')}
+                        aria-hidden="true"
+                      />
+                    </span>
+                  </Disclosure.Button>
+                </dt>
+                <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                  <p className="text-base text-white">{faq.answer}</p>
+                </Disclosure.Panel>
+              </>
+            )}
+          </Disclosure>
+        ))}
+      </dl>
     </div>
+  </div>
+    </div>
+        </div>
+      
     );
 }
 

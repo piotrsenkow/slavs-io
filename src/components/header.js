@@ -44,13 +44,19 @@ function Header({ siteTitle }) {
             href="#responsive-header"
             className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            Legendary Slavs
+            Roadmap
           </Link>
           <Link
-            to={`/faq`}
+            to={`/drunktank`}
             className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            Gulag
+            Drunk Tank
+          </Link> */}
+          {/* <Link
+            to={`/legendaryslavs`}
+            className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            Legendary Slavs
           </Link> */}
         </div>
         
