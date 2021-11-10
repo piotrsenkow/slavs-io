@@ -39,24 +39,24 @@ function Header({ siteTitle }) {
         } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
       >
         <div className="text-sm lg:flex-grow">
-          {/* <Link
+          <Link
+            to={`/legendary`}
+            className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            Legendary Slavs
+          </Link>
+          <Link
             to={`/roadmap`}
             href="#responsive-header"
             className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
             Roadmap
           </Link>
-          <Link
+          {/* <Link
             to={`/drunktank`}
             className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
             Drunk Tank
-          </Link> */}
-          {/* <Link
-            to={`/legendaryslavs`}
-            className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
-          >
-            Legendary Slavs
           </Link> */}
         </div>
         

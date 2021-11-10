@@ -1,7 +1,5 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
 import { Disclosure } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/outline'
 
@@ -16,6 +14,18 @@ const faqs = [
     answer: "They are arriving from Belarus, Bosnia, Bulgaria, Croatia, Czechia, Macedonia, Montenegro, Poland, Russia, Serbia, Slovakia, Slovenia, & Ukraine. Likewise, old school Slavs from USSR and Yugoslavia decided to accompany on this one-way ticket trip to Solana where they will reside on FOREVER!"
   },
   {
+    question: "What comes with a Squatting Slav?",
+    answer: "By purchasing a Squatting Slavs of Solana NFT, you own the full rights to the image and are free to do whatever you wish with it (Make a vinyl wrap for your car, sweatshirt, coffee mug)."
+  },
+  {
+    question: "How many Squatting Slavs will there be?",
+    answer: "There will be 5000 Series 1 Squatting Slavs of Solana. 100 of these will be pre-minted by the team and reserved for giveaways. The remaining 4900 will be available for public mint."
+  },
+  {
+    question: "What benefits do I get from holding?",
+    answer: "By holding a Squatting Slavs of Solana NFT you are entitled to be apart of the exclusive Squatting Slav decentralized autonomous organization (DAO). DAO members will be able to cast votes on the direction of Squatting Slavs of Solana. Legendary Slav holders will receive greater voting power. All DAO members are entitled to a free airdrop of SLAV tokens which will be used to vote in the DAO."
+  },
+  {
     question: "When can I buy a Squatting Slav?",
     answer:
       "December 2021. An exact date is to be determined and announced.",
@@ -23,7 +33,12 @@ const faqs = [
   {
     question: "Where can I buy a Squatting Slav?",
     answer:
-      "You may only purchase a Slav on Slavs.io during launch date. After the initial sale, you may purchase one on secondary art markets such as Solanart.io. ",
+      "You may only purchase a Slav on https://Slavs.io during launch date. After the initial sale, you may purchase one on secondary art markets such as https://Solanart.io/  https://magiceden.io/  or https://digitaleyes.market/ ",
+  },
+  {
+    question: "Are there aftermarket sales royalties collected?",
+    answer:
+      "Yes. 5% total. 3% goes to the artist to maintain servers & to fund future Squatting Slavs of Solana projects. 2% is dedicated strictly for sweeping Slavs off the floor using the Drunk Tank Fund.",
   },
   {
     question: "How much for one Squatting Slav?",
@@ -31,17 +46,12 @@ const faqs = [
       "Slavs will be available for purchase with Solana. An exact price will be determined closer to launch date to ensure a low mint price so that everyone can participate.",
   },
   {
-    question: "Why 10,000 and not a limited amount?",
-    answer:
-      "With 15 nations in this series launch, thats ~667 Slavs representing each nation. There is going to be a high demand to have a Slav, especially those possessing rarer traits from your desired country!",
-  },
-  {
     question: "What's the Squatting Slav mission?",
     answer: "Squatting Slavs of Solana is a fun and wholesome community built on connecting Slavs and everyone else around the world."
   },
   {
-    question: "The future of Squatting Slavs of Solana?",
-    answer: "Series 2 is already in the works. Holders of both Series 1 & 2 will receive a free airdrop."
+    question: "How many unique Squatting Slavs can be created?",
+    answer: "Since there are over 120 attributes split over 9 categories, we have calculated there are approximately 2 billion unique Slavs that can be generated with our artwork."
   },
   {
     question: "What did you listen to while creating this project?",
@@ -58,31 +68,10 @@ function classNames(...classes) {
 
 function About() {
     return(<div>
-      <div class="bg-black text-white relative font-monocontent-center xl:px-12 md:grid md:grid-cols-2">
-            <div class="text-white flex items-center justify-center px-4 lg:w-full font-mono">
-              <div class="grid grid-cols-1 gap-y-4 xl:gap-y-32">
-                <div>
-                  <p class="bold text-4xl leading-7 font-bold tracking-tighter py-4 sm:text-4xl md:text-5xl xl:text-7xl">7 Legendary Slavs</p>
-                  {/* <p class="bold text-2xl leading-7 font-light tracking-tighter py-4 sm:text-4xl">Some famous some fictitious..</p> */}
-                  <p class="bold text-2xl leading-7 font-normal tracking-tighter py-4 sm:text-4xl"><b>Featuring:</b></p>
-                  <li><b>Anatoly Yakovenko</b> (Solana creator)</li>
-                  <li><b>Vitalik Buterin</b> (Ethereum creator)</li>
-                  <li><b>Gary Vaynerchuk</b> (Entrepreneur)</li>
-                  <li><b>Boban Marjanović</b> (Pro NBA player)</li>
-                  <li><b>Yuri Gagarin</b> (Kosmonaut)</li>
-                  <li><b>Babushka</b> (Makes great dumplings!)</li>
-                  <li>& <b>Baba Yaga</b>! (Beware of the witch!)</li>
-                </div>
-              </div>
-            </div>
-            <div>
-                <img class="p-4 xl:px-32 rounded-lg" src="https://d2job0l8ymfiy1.cloudfront.net/" alt="Squatting Slavs of Solana NFT gif image displaying various configurations of Slavs." />
-            </div>
-           </div>
-           <div className="bg-black font-mono pt-16">
+  <div className="bg-black font-mono pt-4">
     <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
     <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
-      <h2 className="text-center text-3xl font-extrabold text-white sm:text-4xl md:text-5xl xl:text-6xl">Frequently asked questions</h2>
+      <h2 className="text-center text-3xl font-extrabold text-white sm:text-4xl md:text-5xl xl:text-6xl">F.A.Q.</h2>
       <dl className="mt-6 space-y-6 divide-y divide-gray-200">
         {faqs.map((faq) => (
           <Disclosure as="div" key={faq.question} className="pt-6">

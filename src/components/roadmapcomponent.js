@@ -1,17 +1,19 @@
 import React from "react"
 
-function Roadmap() {
+function RoadmapComponent() {
     return(
-    <div class="items-center content-center text-white bg-black font-mono">
-    <h2 class="font-mono text-5xl md:7xl text-white">Roadmap</h2>
+    <div class="items-center content-center text-white bg-black font-mono pb-8">
+    <h1 class="font-mono text-5xl md:text-8xl text-white text-center py-8 font-bold">Roadmap</h1>
     <div class="undefined hidden md:flex justify-around text-white">
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 w-2/5 z-10 mb-4">
-        <h3 class="text-bold text-xl md:2xl text-center mb-2">September 2021</h3>
+        <h3 class="text-bold text-xl md:2xl text-center mb-2">October 2021</h3>
         <ul>
-          <li>✅ Create the Penguins!</li>
-          <li>✅ Create Twitter account</li>
-          <li>✅ Stand up Discord</li>
-          <li>✅ Discord Giveaways!</li>
+          <li>✅ Birth of Squatting Slavs of Solana.</li>
+          <li>✅ Create & boost Discord server.</li>
+          <li>✅ Create Instagram account.</li>
+          <li>✅ Create Twitter account.</li>
+          <li>✅ Create Slavs.io.</li>
+          <li>✅ Slavs created!</li>
         </ul>
       </div>
       <div>
@@ -33,12 +35,13 @@ function Roadmap() {
       </div>
       <div class="w-6"></div>
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 z-10 mb-4 w-11/12">
-        <h3 class="text-bold text-xl md:2xl text-center mb-2">September 2021</h3>
+        <h3 class="text-bold text-xl md:2xl text-center mb-2">October 2021</h3>
         <ul>
-          <li>✅ Create the Penguins!</li>
-          <li>✅ Create Twitter account</li>
-          <li>✅ Stand up Discord</li>
-          <li>✅ Discord Giveaways!</li>
+          <li>✅ Birth of Squatting Slavs of Solana.</li>
+          <li>✅ Create & boost Discord server.</li>
+          <li>✅ Create Instagram account.</li>
+          <li>✅ Create Twitter account.</li>
+          <li>✅ Slavs created!</li>
         </ul>
       </div>
     </div>
@@ -52,20 +55,15 @@ function Roadmap() {
         <div class="flex-grow"></div>
       </div>
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 w-2/5 z-10 mb-4">
-        <h3 class="text-bold text-xl md:2xl text-center mb-2">October 2021</h3>
+        <h3 class="text-bold text-xl md:2xl text-center mb-2">November 2021</h3>
         <ul>
-          <li>✅ Pesky Penguins website</li>
-          <li>✅ Reveal roadmap</li>
-          <li>✅ Add Penguins to Candy Machine</li>
-          <li>✅ Initial Penguin sale!</li>
-          <li>✅ Get verified on marketplaces</li>
-          <li>✅ The Snowball starts rolling</li>
-          <li>✅ Discord bot for marketplace sales</li>
+          <li>✅ Reveal roadmap.</li>
           <li>✅ Launch giveaways!</li>
-          <li>✅ Build the Penguin Graveyard</li>
-          <li>✅ Implement Discord verification for Pengu holders</li>
-          <li>✅ Build Official Rarity Tool</li>
-          <li>⬛ Halloween Giveaway!</li>
+          <li>✅ Build Official Rarity Tool.</li>
+          <li>⬛ Add Slavs to the Candy Machine.</li>
+          <li>⬛ Revisions to the Slavs.io website.</li>
+          <li>⬛ Development of SLAV token begins. Whitepaper release.</li>
+          <li>⬛ Release Official Squatting Slavs of Solana Commercial.</li>
         </ul>
       </div>
     </div>
@@ -79,30 +77,30 @@ function Roadmap() {
       </div>
       <div class="w-6"></div>
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 z-10 mb-4 w-11/12">
-        <h3 class="text-bold text-xl md:2xl text-center mb-2">October 2021</h3>
+        <h3 class="text-bold text-xl md:2xl text-center mb-2">November 2021</h3>
         <ul>
-          <li>✅ Pesky Penguins website</li>
-          <li>✅ Reveal roadmap</li>
-          <li>✅ Add Penguins to Candy Machine</li>
-          <li>✅ Initial Penguin sale!</li>
-          <li>✅ Get verified on marketplaces</li>
-          <li>✅ The Snowball starts rolling</li>
-          <li>✅ Discord bot for marketplace sales</li>
+        <li>✅ Reveal roadmap.</li>
           <li>✅ Launch giveaways!</li>
-          <li>✅ Build the Penguin Graveyard</li>
-          <li>✅ Implement Discord verification for Pengu holders</li>
-          <li>✅ Build Official Rarity Tool</li>
-          <li>⬛ Halloween Giveaway!</li>
+          <li>✅ Build Official Rarity Tool.</li>
+          <li>⬛ Add Slavs to the Candy Machine.</li>
+          <li>⬛ Revisions to the Slavs.io website.</li>
+          <li>⬛ Development of SLAV token begins. Whitepaper release.</li>
+          <li>⬛ Release Official Squatting Slavs of Solana Commercial.</li>
         </ul>
       </div>
     </div>
     <div class="undefined hidden md:flex justify-around  text-white">
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 w-2/5 z-10 mb-4">
-        <h3 class="text-bold text-xl md:2xl text-center mb-2">November 2021</h3>
+        <h3 class="text-bold text-xl md:2xl text-center mb-2">December 2021</h3>
         <ul>
-          <li>⬛ Administrative tasks</li>
-          <li>⬛ NOOTVEMBER SPECIAL EVENT</li>
-          <li>⬛ Thanksgiving giveaways!</li>
+        <li>⬛ Official Sale of Series 1 Squatting Slavs.</li>
+          <li>⬛ Reveal Rarity Tool after Series 1 launch to avoid attribute sniping.</li>
+          <li>⬛ Get verified on Solanart, DigitalEyes, & MagicEden marketplaces.</li>
+          <li>⬛ The police throw floor price Slavs into the Drunk Tank biweekly.</li>
+          <li>⬛ Build the Drunk Tank visitation center on Slavs.io.</li>
+          <li>⬛ Create a Discord bot for marketplace sales.</li>
+          <li>⬛ Development of Series 2 Female Squatting Slavs begins.</li>
+          <li>⬛ Create DAO exclusive for holders of Series 1.</li>
         </ul>
       </div>
       <div>
@@ -124,11 +122,16 @@ function Roadmap() {
       </div>
       <div class="w-6"></div>
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 z-10 mb-4 w-11/12">
-        <h3 class="text-bold text-xl md:2xl text-center mb-2">November 2021</h3>
+        <h3 class="text-bold text-xl md:2xl text-center mb-2">December 2021</h3>
         <ul>
-          <li>⬛ Administrative tasks</li>
-          <li>⬛ NOOTVEMBER SPECIAL EVENT</li>
-          <li>⬛ Thanksgiving giveaways!</li>
+        <li>⬛ Official Sale of Series 1 Squatting Slavs.</li>
+          <li>⬛ Reveal Rarity Tool after Series 1 launch to avoid attribute sniping.</li>
+          <li>⬛ Get verified on Solanart, DigitalEyes, & MagicEden marketplaces.</li>
+          <li>⬛ The police throw floor price Slavs into the Drunk Tank biweekly.</li>
+          <li>⬛ Build the Drunk Tank visitation center on Slavs.io.</li>
+          <li>⬛ Create a Discord bot for marketplace sales.</li>
+          <li>⬛ Development of Series 2 Female Squatting Slavs begins.</li>
+          <li>⬛ Create DAO exclusive for holders of Series 1.</li>
         </ul>
       </div>
     </div>
@@ -142,10 +145,12 @@ function Roadmap() {
         <div class="flex-grow"></div>
       </div>
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 w-2/5 z-10 mb-4">
-        <h3 class="text-bold text-xl md:2xl text-center mb-2">December 2021</h3>
+        <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2022</h3>
         <ul>
-          <li>⬛ Begin building NOOTOPIA (details still secret!)</li>
-          <li>⬛ Winter solstice giveaways!</li>
+        <li>⬛ Launch SLAV token.</li>
+          <li>⬛ Plans for holders of Series 1 and 2 to get free airdrop of of children Squatting Slavs.</li>
+          <li>⬛ SLAV token airdrop to holders!</li>
+          <li>⬛ DAO members vote with SLAV tokens on the future direction of Squatting Slavs of Solana. We want all Slavs to have a say in this project!</li>
         </ul>
       </div>
     </div>
@@ -159,10 +164,12 @@ function Roadmap() {
       </div>
       <div class="w-6"></div>
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 z-10 mb-4 w-11/12">
-        <h3 class="text-bold text-xl md:2xl text-center mb-2">December 2021</h3>
+        <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2022</h3>
         <ul>
-          <li>⬛ Begin building NOOTOPIA (details still secret!)</li>
-          <li>⬛ Winter solstice giveaways!</li>
+        <li>⬛ Launch SLAV token.</li>
+          <li>⬛ Plans for holders of Series 1 and 2 to get free airdrop of of children Squatting Slavs.</li>
+          <li>⬛ SLAV token airdrop to holders!</li>
+          <li>⬛ DAO members vote with SLAV tokens on the future direction of Squatting Slavs of Solana. We want all Slavs to have a say in this project!</li>
         </ul>
       </div>
     </div>
@@ -171,4 +178,4 @@ function Roadmap() {
 }
 
 
-export default Roadmap
+export default RoadmapComponent
