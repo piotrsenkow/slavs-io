@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Squatting Slavs of Solana`,
-    description: `Squatting Slavs of Solana is an NFT collection arriving to the Solana blockchain December 2021 in the form of 5,000, unique, randomly-generated, Squatting Slavs originating from 13+ Slavic countries.`,
+    description: `Squatting Slavs of Solana is an NFT collection arriving to the Solana blockchain December 5, 2021 in the form of 2,500, unique, randomly-generated, Squatting Slavs originating from 13+ Slavic countries.`,
     author: `@slavicnfts`,
     siteUrl: `https://slavs.io`,
     keywords: `slav squat, squatting slavs, slavic, solana, nft, culture, meme, wojak`,

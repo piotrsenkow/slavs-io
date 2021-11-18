@@ -5,35 +5,31 @@ import { ChevronDownIcon } from '@heroicons/react/outline'
 
 const faqs = [
   {
-    question: "Who are Squatting Slavs?",
+    question: "Who are the Squatting Slavs?",
     answer:
-      "Slavic people originate from 13 countries (15 if you include past countries USSR and Yugoslavia). They squat because it is obvious that it is  more comfortable / efficient than sitting or standing.",
+      "Slavic people originate from 13 countries (15 if you include past countries USSR and Yugoslavia). They squat because it is obvious that it is  more comfortable / efficient than sitting or standing. They are arriving from Belarus, Bosnia, Bulgaria, Croatia, Czechia, Macedonia, Montenegro, Poland, Russia, Serbia, Slovakia, Slovenia, & Ukraine. Likewise, old school Slavs from the USSR and Yugoslavia will accompany everyone on this one-way ticket trip to Solana where they will reside on FOREVER!",
   },
   {
-    question: "Where are they coming from?",
-    answer: "They are arriving from Belarus, Bosnia, Bulgaria, Croatia, Czechia, Macedonia, Montenegro, Poland, Russia, Serbia, Slovakia, Slovenia, & Ukraine. Likewise, old school Slavs from USSR and Yugoslavia decided to accompany on this one-way ticket trip to Solana where they will reside on FOREVER!"
+    question: "How many Squatting Slavs will there be sold?",
+    answer: "There will be 2500 Series-1 Squatting Slavs. 100 of these will be pre-minted by the team and reserved for giveaways. The remaining 2400 will be available for public mint."
   },
   {
-    question: "What comes with a Squatting Slav?",
-    answer: "By purchasing a Squatting Slavs of Solana NFT, you own the full rights to the image and are free to do whatever you wish with it (Make a vinyl wrap for your car, sweatshirt, coffee mug)."
-  },
-  {
-    question: "How many Squatting Slavs will there be?",
-    answer: "There will be 5000 Series 1 Squatting Slavs of Solana. 100 of these will be pre-minted by the team and reserved for giveaways. The remaining 4900 will be available for public mint."
-  },
-  {
-    question: "What benefits do I get from holding?",
-    answer: "By holding a Squatting Slavs of Solana NFT you are entitled to be apart of the exclusive Squatting Slav decentralized autonomous organization (DAO). DAO members will be able to cast votes on the direction of Squatting Slavs of Solana. Legendary Slav holders will receive greater voting power. All DAO members are entitled to a free airdrop of SLAV tokens which will be used to vote in the DAO."
-  },
-  {
-    question: "When can I buy a Squatting Slav?",
+    question: "When is the official sale?",
     answer:
-      "December 2021. An exact date is to be determined and announced.",
+      "December 5th, 3:00PM EST/8:00PM UTC.",
   },
   {
     question: "Where can I buy a Squatting Slav?",
     answer:
-      "You may only purchase a Slav on https://Slavs.io during launch date. After the initial sale, you may purchase one on secondary art markets such as https://Solanart.io/  https://magiceden.io/  or https://digitaleyes.market/ ",
+      "On official release day, a buy button be available in the navigation bar of Slavs.io and links will be posted in our social media channels. After the initial sale, you may purchase one on secondary art markets such as Solanart.io, Magiceden.io or Digitaleyes.market.",
+  },
+  {
+    question: "What is a fair mint? What's a candy machine?",
+    answer: "Metaplex's Candy-Machine will be used to govern a fair mint. That means: live minting with start and finish time same for everyone & we won't accept your funds when Slavs sell out. Everyone is given the same chance to get the rarest Squatting Slavs through random distribution without bonding-curve, all possible through the Candy-Machine."
+  },
+  {
+    question: "How do I protect myself from scams?",
+    answer: "Squatting Slavs of Solana will NEVER private message you asking you anything that one might consider suspicious. The only way to purchase an official Squatting Slavs of Solana NFT will be through the buy button that will appear on Slavs.io on December 5th. We also encourage safe-practices such as creating a burner wallet for the purpose of purchasing NFTs during live mints."
   },
   {
     question: "Are there aftermarket sales royalties collected?",
@@ -43,15 +39,15 @@ const faqs = [
   {
     question: "How much for one Squatting Slav?",
     answer:
-      "Slavs will be available for purchase with Solana. An exact price will be determined closer to launch date to ensure a low mint price so that everyone can participate.",
+      "Slavs will be available for purchase with Solana. The price to mint one Slav will be 0.20 Sol.",
   },
   {
     question: "What's the Squatting Slav mission?",
-    answer: "Squatting Slavs of Solana is a fun and wholesome community built on connecting Slavs and everyone else around the world."
+    answer: "Squatting Slavs of Solana is a community aspiring to connect Slavs and all types of people from around the world. We are all different yet very similar."
   },
   {
     question: "How many unique Squatting Slavs can be created?",
-    answer: "Since there are over 120 attributes split over 9 categories, we have calculated there are approximately 2 billion unique Slavs that can be generated with our artwork."
+    answer: "Since there are over 120 attributes split over 9 categories, we have calculated that there are approximately 2 billion unique Slavs that can be generated."
   },
   {
     question: "What did you listen to while creating this project?",
