@@ -45,7 +45,7 @@ const Layout = ({ children }) => {
     },
     {
       name: 'Instagram',
-      href: 'https://www.instagram.com/solanaslavs',
+      href: 'https://www.instagram.com/solanaslavs/',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -75,6 +75,7 @@ const Layout = ({ children }) => {
             </div>
             <div className="mt-8 md:mt-0 md:order-1">
               <p className="text-center text-base text-gray-400">&copy; 2021 Slavs.io. All rights reserved.</p>
+              <p className="text-right text-base text-gray-400">Drunk Tank wallet: <a class ="text-gray-800" target="_blank" href="https://explorer.solana.com/address/37e4FsqTgApFofBSam7jKJFZNiANKMqASh1Bm1gifPwu">37e4FsqTgApFofBSam7jKJFZNiANKMqASh1Bm1gifPwu</a></p>
             </div>
           </div>
       </footer>
