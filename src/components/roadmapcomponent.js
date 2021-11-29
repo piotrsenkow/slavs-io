@@ -60,10 +60,9 @@ function RoadmapComponent() {
           <li>✅ Reveal roadmap.</li>
           <li>✅ Launch giveaways!</li>
           <li>✅ Build Official Rarity Tool.</li>
-          <li>⬛ Add Slavs to the Candy Machine.</li>
-          <li>⬛ Revisions to the Slavs.io website.</li>
-          <li>⬛ Development of SLAV token begins. Whitepaper release.</li>
-          <li>⬛ Release Official Squatting Slavs of Solana Commercial.</li>
+          <li>✅ Add Slavs to the Candy Machine.</li>
+          <li>✅ Revisions to the Slavs.io website.</li>
+          <li>✅ Release Official Squatting Slavs of Solana Commercial.</li>
         </ul>
       </div>
     </div>
@@ -82,10 +81,9 @@ function RoadmapComponent() {
         <li>✅ Reveal roadmap.</li>
           <li>✅ Launch giveaways!</li>
           <li>✅ Build Official Rarity Tool.</li>
-          <li>⬛ Add Slavs to the Candy Machine.</li>
-          <li>⬛ Revisions to the Slavs.io website.</li>
-          <li>⬛ Development of SLAV token begins. Whitepaper release.</li>
-          <li>⬛ Release Official Squatting Slavs of Solana Commercial.</li>
+          <li>✅ Add Slavs to the Candy Machine.</li>
+          <li>✅ Revisions to the Slavs.io website.</li>
+          <li>✅ Release Official Squatting Slavs of Solana Commercial.</li>
         </ul>
       </div>
     </div>
@@ -99,6 +97,7 @@ function RoadmapComponent() {
           <li>⬛ The police throw floor price Slavs into the Drunk Tank biweekly.</li>
           <li>⬛ Build the Drunk Tank visitation center on Slavs.io.</li>
           <li>⬛ Create a Discord bot for marketplace sales.</li>
+          <li>⬛ Development of SLAV token begins. Whitepaper release.</li>
           <li>⬛ Development of Series 2 Female Squatting Slavs begins.</li>
           <li>⬛ Create DAO exclusive for holders of Series 1.</li>
         </ul>
@@ -130,6 +129,7 @@ function RoadmapComponent() {
           <li>⬛ The police throw floor price Slavs into the Drunk Tank biweekly.</li>
           <li>⬛ Build the Drunk Tank visitation center on Slavs.io.</li>
           <li>⬛ Create a Discord bot for marketplace sales.</li>
+          <li>⬛ Development of SLAV token begins. Whitepaper release.</li>
           <li>⬛ Development of Series 2 Female Squatting Slavs begins.</li>
           <li>⬛ Create DAO exclusive for holders of Series 1.</li>
         </ul>
