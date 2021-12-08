@@ -12,7 +12,7 @@ function Gif() {
               <div class="grid grid-cols-1 gap-y-4 xl:gap-y-12 2xl:gap-y-32">
                 <div>
                   <p class="bold text-4xl leading-7 font-bold tracking-tighter py-4 md:leading-10 md:text-5xl xl:text-7xl">13+ Nations,<br/> 120+ Attributes,<br/> 2500 Squatting Slavs.</p>
-                  <p class="bold text-3xl leading-7 font-normal py-4 sm:text-xl xl:text-3xl">Get your Slav for <u>0.1 Sol</u> at the Squatting Slav December to Remember Sale! Sale closes Dec 9 at 20:00 UTC.</p>
+                  <p class="bold text-3xl leading-7 font-normal py-4 sm:text-xl xl:text-3xl">Get your Slav for <u>0.1 Sol</u> at the Squatting Slav December to Remember Sale!</p>
                 </div>
                 <div class="text-white grid grid-cols-3">
                   <div class="box border-r-2 items-center justify-center flex flex-col">
