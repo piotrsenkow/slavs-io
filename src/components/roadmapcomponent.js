@@ -91,7 +91,7 @@ function RoadmapComponent() {
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 w-2/5 z-10 mb-4">
         <h3 class="text-bold text-xl md:2xl text-center mb-2">December 2021</h3>
         <ul>
-        <li>⬛ Official Sale of Series 1 Squatting Slavs.</li>
+        <li>✅ Official Sale of Series 1 Squatting Slavs.</li>
           <li>⬛ Reveal Rarity Tool after Series 1 launch to avoid attribute sniping.</li>
           <li>⬛ Get verified on Solanart, DigitalEyes, & MagicEden marketplaces.</li>
           <li>⬛ The police throw floor price Slavs into the Drunk Tank biweekly.</li>
@@ -123,7 +123,7 @@ function RoadmapComponent() {
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 z-10 mb-4 w-11/12">
         <h3 class="text-bold text-xl md:2xl text-center mb-2">December 2021</h3>
         <ul>
-        <li>⬛ Official Sale of Series 1 Squatting Slavs.</li>
+        <li>✅ Official Sale of Series 1 Squatting Slavs.</li>
           <li>⬛ Reveal Rarity Tool after Series 1 launch to avoid attribute sniping.</li>
           <li>⬛ Get verified on Solanart, DigitalEyes, & MagicEden marketplaces.</li>
           <li>⬛ The police throw floor price Slavs into the Drunk Tank biweekly.</li>
