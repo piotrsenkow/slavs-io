@@ -195,7 +195,7 @@ function RoadmapComponent() {
         <div class="flex-grow"></div>
       </div>
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 w-2/5 z-10 mb-4">
-        <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2022</h3>
+        <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2023</h3>
         <ul>
         <li>⬛ Start a Validator on the Solana Network.</li>
         </ul>
@@ -211,7 +211,7 @@ function RoadmapComponent() {
       </div>
       <div class="w-6"></div>
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 z-10 mb-4 w-11/12">
-        <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2022</h3>
+        <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2023</h3>
         <ul>
         <li>⬛ Start a Validator on the Solana Network.</li>
         </ul>
