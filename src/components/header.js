@@ -46,11 +46,11 @@ function Header({ siteTitle }) {
             Legendary Slavs
           </Link>
           <Link
-            to={`/roadmap`}
+            to={`/FAQ`}
             href="#responsive-header"
             className="flex items-center justify-center mt-3 sm:mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            Roadmap
+            FAQ
           </Link>
           {/* <Link
             to={`/drunktank`}
@@ -66,14 +66,14 @@ function Header({ siteTitle }) {
           <a href="https://www.instagram.com/solanaslavs" class="lg:mt-0 mt-3 text-white lg:px-2"><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
         </div>
 
-        <div>
+        {/* <div>
           <a
             href="https://mint.slavs.io"
             className="inline-block px-4 py-2 mt-4 disabled:opacity-90 text-sm leading-none text-white border border-white rounded hover:border-transparent hover:text-white hover:bg-black lg:mt-0"
           >
           Mint a Slav!
           </a>
-        </div>
+        </div> */}
       </div>
     </nav>
   )

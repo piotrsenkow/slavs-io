@@ -27,7 +27,6 @@ const Legendary = () => (
         </div>
         <div class="bg-black text-white text-center pb-8 sm:pb-16 px-4 font-mono">
             <h1 class="text-4xl sm:text-5xl pb-4">These Slavs are one of a kind!</h1>
-            <p class="text-xl md:text-3xl pt-8 sm:pt-64">Make sure to hold these as they will bring you more SLAV than the average Squatting Slav!</p>
         </div>
   </Layout>
 )

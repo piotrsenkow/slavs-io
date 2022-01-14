@@ -7,11 +7,11 @@ const faqs = [
   {
     question: "Who are the Squatting Slavs?",
     answer:
-      "Slavic people originate from 13 countries (15 if you include past countries USSR and Yugoslavia). They squat because it is obvious that it is  more comfortable / efficient than sitting or standing. They are arriving from Belarus, Bosnia, Bulgaria, Croatia, Czechia, Macedonia, Montenegro, Poland, Russia, Serbia, Slovakia, Slovenia, & Ukraine. Likewise, old school Slavs from the USSR and Yugoslavia will accompany everyone on this one-way ticket trip to Solana where they will reside on FOREVER!",
+      "Slavic people originate from 15 countries: Belarus, Bosnia, Bulgaria, Croatia, Czechia, Macedonia, Montenegro, Poland, Russia, Serbia, Slovakia, Slovenia, Ukraine, USSR, and Yugoslavia. They squat because it is obvious that it is  more comfortable / efficient than sitting or standing",
   },
   {
     question: "How many Squatting Slavs will there be sold?",
-    answer: "There will be 2500 Series-1 Squatting Slavs. 100 of these will be pre-minted by the team and reserved for giveaways. The remaining 2400 will be available for public mint."
+    answer: "There are 2500 Series-1 Squatting Slavs."
   },
   {
     question: "When is the official sale?",
@@ -64,7 +64,7 @@ function classNames(...classes) {
 
 function About() {
     return(<div>
-  <div className="bg-black font-mono pt-4">
+  <div className="bg-black font-mono">
     <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
     <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
       <h2 className="text-center text-3xl font-extrabold text-white sm:text-4xl md:text-5xl xl:text-6xl">F.A.Q.</h2>
