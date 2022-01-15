@@ -53,7 +53,7 @@ function RoadmapComponent() {
         <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2022</h3>
         <ul>
           <li>✅ Community Partnerships!</li>
-          <li>⬛ Premier public launch for Gen-1 of Squatting Slavs.</li>
+          <li>⬛ Premier public launch for Gen-1 Squatting Slavs.</li>
           <li>⬛ Development of a Staking Mechanism to distribute Slav Coins to Slav Holders (Backed by a liquidity pool).</li>
         </ul>
       </div>
@@ -71,7 +71,7 @@ function RoadmapComponent() {
         <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2022</h3>
         <ul>
         <li>✅ Community Partnerships!</li>
-        <li>⬛ Premier public launch for Gen-1 of Squatting Slavs.</li>
+        <li>⬛ Premier public launch for Gen-1 Squatting Slavs.</li>
         <li>⬛ Development of a Staking Mechanism to distribute Slav Coins to Slav Holders (Backed by a liquidity pool).</li>
         </ul>
       </div>
@@ -82,7 +82,7 @@ function RoadmapComponent() {
         <ul>
           <li>⬛ Develop a DAO for the Squatting Slavs of Solana.</li>
           <li>⬛ Donate to Charity for Orphans in Slavic Countries that are in need of resources!</li>
-          <li>⬛ Develop Slavic Merchandise! (Individuals can purchase this using the  Slav Coins that they receive).</li>
+          <li>⬛ Develop Slavic Merchandise! </li>
           <li>⬛ Finalize selection of Vodka Distillers and create a Squatting Slavs Vodka brand.</li>
           <li>⬛ Launch of Gen-2 Squatting Slavs!</li>
         </ul>
@@ -110,7 +110,7 @@ function RoadmapComponent() {
         <ul>
         <li>⬛ Develop a DAO for the Squatting Slavs of Solana.</li>
         <li>⬛ Donate to Charity for Orphans in Slavic Countries that are in need of resources!</li>
-        <li>⬛ Develop Slavic Merchandise! (Individuals can purchase this using the  Slav Coins that they receive).</li>
+        <li>⬛ Develop Slavic Merchandise!</li>
         <li>⬛ Finalize selection of Vodka Distillers and create a Squatting Slavs Vodka brand.</li>
         <li>⬛ Launch of Gen-2 Squatting Slavs!</li>
         </ul>
@@ -162,6 +162,7 @@ function RoadmapComponent() {
         <li>⬛ Ramp up marketing for Squatting Slavs brand.</li>
         <li>⬛ Start forming partnerships with Slavic Airlines (allowing Slav NFT holders to get discounted flights to Slavic Countries)!</li>
         <li>⬛ Launch Gen-3 Squatting Slavs.</li>
+        <li>⬛ Squatting Slav meetups across Europe! All Squatting Slav NFT holders will be invited to party with Squatting Slavs Vodka!</li>
         </ul>
       </div>
       <div>
@@ -188,6 +189,7 @@ function RoadmapComponent() {
         <li>⬛ Ramp up marketing for Squatting Slavs brand.</li>
         <li>⬛ Start forming partnerships with Slavic Airlines (allowing Slav NFT holders to get discounted flights to Slavic Countries)!</li>
         <li>⬛ Launch Gen-3 Squatting Slavs.</li>
+        <li>⬛ Squatting Slav meetups across Europe! All Squatting Slav NFT holders will be invited to party with Squatting Slavs Vodka!</li>
         </ul>
       </div>
     </div>
@@ -203,8 +205,7 @@ function RoadmapComponent() {
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 w-2/5 z-10 mb-4">
         <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2023</h3>
         <ul>
-        <li>⬛ Squatting Slav meetups across Europe! All Squatting Slav NFT holders will be invited to party with Squatting Slavs Vodka!</li>
-        <li>⬛ Start a Squatting Slav Validator to support the Solana Network.</li>
+        <li>⬛ Start a Squatting Slav Validator on the Solana Network.</li>
         </ul>
       </div>
     </div>
@@ -220,8 +221,7 @@ function RoadmapComponent() {
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 z-10 mb-4 w-11/12">
         <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2023</h3>
         <ul>
-        <li>⬛ Squatting Slav meetups across Europe! All Squatting Slav NFT holders will be invited to party with Squatting Slavs Vodka!</li>
-        <li>⬛ Start a Squatting Slav Validator to support the Solana Network.</li>
+        <li>⬛ Start a Squatting Slav Validator on the Solana Network.</li>
         </ul>
       </div>
     </div>
