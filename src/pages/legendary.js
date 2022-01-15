@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const Legendary = () => (
   <Layout>
     <SEO title="Legendary Slavs" />
-    <div class="bg-black text-white relative font-mono content-center xl:px-12 md:grid md:grid-cols-2 pb-16 xl:px-12 sm:pt-8">
+    <div class="bg-black text-white h-screen relative font-mono content-center xl:px-12 md:grid md:grid-cols-2 pb-16 xl:px-12 sm:pt-8">
     <img class="p-4 xl:px-32 rounded-lg order-first" src="https://d2job0l8ymfiy1.cloudfront.net/" alt="Seven Legendary Squatting Slavs including Anatoly Yakovenko, Vitalik Buterin, Gary Vee, and more." />
           <div class="text-white flex items-center justify-center px-4 lg:w-full font-mono">
             <div class="grid grid-cols-1 gap-y-4 xl:gap-y-32">

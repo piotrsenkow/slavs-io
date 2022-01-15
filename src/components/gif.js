@@ -11,7 +11,7 @@ function Gif() {
             <div class="text-white flex items-center justify-center px-4 lg:w-full font-mono">
               <div class="grid grid-cols-1 gap-y-4 xl:gap-y-12 2xl:gap-y-32">
                 <div>
-                  <p class="bold text-4xl leading-7 font-bold tracking-tighter py-4 md:leading-10 md:text-5xl xl:text-7xl">13+ Nations,<br/> 120+ Attributes, 2500 Squatting Slavs</p>
+                  <p class="bold text-4xl leading-7 font-bold tracking-tighter py-4 md:leading-10 md:text-5xl xl:text-7xl">15 Nations,<br/> 120+ Attributes, 2500 Gen-1 Slavs.</p>
                 </div>
                 {/* <div class="text-white grid grid-cols-3">
                   <div class="box border-r-2 items-center justify-center flex flex-col">

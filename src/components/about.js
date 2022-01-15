@@ -7,52 +7,24 @@ const faqs = [
   {
     question: "Who are the Squatting Slavs?",
     answer:
-      "Slavic people originate from 15 countries: Belarus, Bosnia, Bulgaria, Croatia, Czechia, Macedonia, Montenegro, Poland, Russia, Serbia, Slovakia, Slovenia, Ukraine, USSR, and Yugoslavia. They squat because it is obvious that it is  more comfortable / efficient than sitting or standing",
+      "Slavic people originate from 15 countries: Belarus, Bosnia, Bulgaria, Croatia, Czechia, Macedonia, Montenegro, Poland, Russia, Serbia, Slovakia, Slovenia, Ukraine, USSR, and Yugoslavia. They squat because it is obvious that it is more comfortable / efficient than sitting / standing.",
   },
   {
     question: "How many Squatting Slavs will there be sold?",
-    answer: "There are 2500 Series-1 Squatting Slavs."
+    answer: "There will be 2500 Gen-1 Squatting Slavs."
   },
   {
-    question: "When is the official sale?",
-    answer:
-      "December 5th, 3:00PM EST/8:00PM UTC.",
-  },
-  {
-    question: "Where can I buy a Squatting Slav?",
-    answer:
-      "On official release day, a buy button be available in the navigation bar of Slavs.io and links will be posted in our social media channels. After the initial sale, you may purchase one on secondary art markets such as Solanart.io, Magiceden.io or Digitaleyes.market.",
-  },
-  {
-    question: "What is a fair mint? What's a candy machine?",
-    answer: "Metaplex's Candy-Machine will be used to govern a fair mint. That means: live minting with start and finish time same for everyone & we won't accept your funds when Slavs sell out. Everyone is given the same chance to get the rarest Squatting Slavs through random distribution without bonding-curve, all possible through the Candy-Machine."
-  },
-  {
-    question: "How do I protect myself from scams?",
-    answer: "Squatting Slavs of Solana will NEVER private message you asking you anything that one might consider suspicious. The only way to purchase an official Squatting Slavs of Solana NFT will be through the buy button that will appear on Slavs.io on December 5th. We also encourage safe-practices such as creating a burner wallet for the purpose of purchasing NFTs during live mints."
-  },
-  {
-    question: "Are there aftermarket sales royalties collected?",
-    answer:
-      "Yes. 5% total. 3% goes to the artist to maintain servers & to fund future Squatting Slavs of Solana projects. 2% is dedicated strictly for sweeping Slavs off the floor using the Drunk Tank Fund.",
-  },
-  {
-    question: "How much for one Squatting Slav?",
-    answer:
-      "Slavs will be available for purchase with Solana. The price to mint one Slav will be 0.20 Sol.",
+    question: "When is the official Gen-1 sale?",
+    answer: "To be determined!",
   },
   {
     question: "What's the Squatting Slav mission?",
-    answer: "Squatting Slavs of Solana is a community aspiring to connect Slavs and all types of people from around the world. We are all different yet very similar."
-  },
-  {
-    question: "How many unique Squatting Slavs can be created?",
-    answer: "Since there are over 120 attributes split over 9 categories, we have calculated that there are approximately 2 billion unique Slavs that can be generated."
+    answer: "Squatting Slavs of Solana is a community connecting people from around the world, celebrating Slavic culture."
   },
   {
     question: "What did you listen to while creating this project?",
     answer:
-      "'Mac Miller - Faces' was on loop in the background 24/7. ",
+      "'Mac Miller - Faces' was on loop 24/7 during the creation of this project.",
   },
   
   // More questions...
@@ -64,7 +36,7 @@ function classNames(...classes) {
 
 function About() {
     return(<div>
-  <div className="bg-black font-mono">
+  <div className="bg-black font-mono h-screen">
     <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
     <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
       <h2 className="text-center text-3xl font-extrabold text-white sm:text-4xl md:text-5xl xl:text-6xl">F.A.Q.</h2>
