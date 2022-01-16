@@ -53,7 +53,7 @@ function RoadmapComponent() {
         <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2022</h3>
         <ul>
           <li>✅ Community Partnerships!</li>
-          <li>⬛ Premier public launch for Gen-1 Squatting Slavs.</li>
+          <li>⬛ Premier public launch for Gen-1 Squatting Slavs!</li>
           <li>⬛ Development of a Staking Mechanism to distribute Slav Coins to Slav Holders (Backed by a liquidity pool).</li>
         </ul>
       </div>
@@ -71,7 +71,7 @@ function RoadmapComponent() {
         <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2022</h3>
         <ul>
         <li>✅ Community Partnerships!</li>
-        <li>⬛ Premier public launch for Gen-1 Squatting Slavs.</li>
+        <li>⬛ Premier public launch for Gen-1 Squatting Slavs!</li>
         <li>⬛ Development of a Staking Mechanism to distribute Slav Coins to Slav Holders (Backed by a liquidity pool).</li>
         </ul>
       </div>
@@ -80,8 +80,8 @@ function RoadmapComponent() {
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 w-2/5 z-10 mb-4">
         <h3 class="text-bold text-xl md:2xl text-center mb-2">Q2 2022</h3>
         <ul>
-          <li>⬛ Develop a DAO for the Squatting Slavs of Solana.</li>
-          <li>⬛ Donate to Charity for Orphans in Slavic Countries that are in need of resources!</li>
+          <li>⬛ Develop a DAO for the Squatting Slavs of Solana!</li>
+          <li>⬛ Donate to Charity!</li>
           <li>⬛ Develop Slavic Merchandise! </li>
           <li>⬛ Finalize selection of Vodka Distillers and create a Squatting Slavs Vodka brand.</li>
           <li>⬛ Launch of Gen-2 Squatting Slavs!</li>
@@ -108,8 +108,8 @@ function RoadmapComponent() {
       <div class="flex flex-col bg-coolGray-50 rounded-lg shadow-md p-4 border-2 border-coolGray-600 z-10 mb-4 w-11/12">
         <h3 class="text-bold text-xl md:2xl text-center mb-2">Q2 2022</h3>
         <ul>
-        <li>⬛ Develop a DAO for the Squatting Slavs of Solana.</li>
-        <li>⬛ Donate to Charity for Orphans in Slavic Countries that are in need of resources!</li>
+        <li>⬛ Develop a DAO for the Squatting Slavs of Solana!</li>
+        <li>⬛ Donate to Charity!</li>
         <li>⬛ Develop Slavic Merchandise!</li>
         <li>⬛ Finalize selection of Vodka Distillers and create a Squatting Slavs Vodka brand.</li>
         <li>⬛ Launch of Gen-2 Squatting Slavs!</li>
@@ -206,6 +206,8 @@ function RoadmapComponent() {
         <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2023</h3>
         <ul>
         <li>⬛ Start a Squatting Slav Validator on the Solana Network.</li>
+        <li>⬛ Continue Promoting and Developing the Squatting Slavs Brand and Community!</li>
+        <li>⬛ Continue donating to Slavic Charities.</li>
         </ul>
       </div>
     </div>
@@ -222,6 +224,8 @@ function RoadmapComponent() {
         <h3 class="text-bold text-xl md:2xl text-center mb-2">Q1 2023</h3>
         <ul>
         <li>⬛ Start a Squatting Slav Validator on the Solana Network.</li>
+        <li>⬛ Continue Promoting and Developing the Squatting Slavs Brand and Community!</li>
+        <li>⬛ Continue donating to Slavic Charities.</li>
         </ul>
       </div>
     </div>
